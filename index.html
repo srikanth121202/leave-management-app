@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Leave Management App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h2>Leave Application Form</h2>
+
+  <form id="leaveForm">
+    <input type="text" id="employeeName" placeholder="Employee Name" required />
+
+    <select id="leaveType" required>
+      <option value="">Select Leave Type</option>
+      <option value="Casual">Casual</option>
+      <option value="Sick">Sick</option>
+      <option value="Earned">Earned</option>
+    </select>
+
+    <input type="date" id="fromDate" required />
+    <input type="date" id="toDate" required />
+
+    <textarea id="reason" placeholder="Reason" required></textarea>
+
+    <button type="submit">Apply Leave</button>
+  </form>
+
+  <h2>Leave Requests</h2>
+
+  <select id="filterType">
+    <option value="All">All</option>
+    <option value="Casual">Casual</option>
+    <option value="Sick">Sick</option>
+    <option value="Earned">Earned</option>
+  </select>
+
+  <ul id="leaveList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: #ccc;
+}
+
+form {
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+
+input, select, textarea, button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.actions button {
+  margin-right: 5px;
+  background-color: #dc3545;
+}
+
+#leaveType {
+    width: 420px;
+}
